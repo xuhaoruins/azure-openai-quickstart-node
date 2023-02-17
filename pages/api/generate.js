@@ -3,7 +3,7 @@ import { Configuration, OpenAIApi } from "openai";
 
 const configuration = new Configuration({
   //apiKey: process.env.OPENAI_API_KEY,  
-  basePath: "https://aoai-lab.openai.azure.com/openai/deployments/text-davinci-003",
+  basePath: "https://{YOUR-PROJECT}.openai.azure.com/openai/deployments/{YOUR-DEPLOYMENT}",
 });
 const openai = new OpenAIApi(configuration);
 
