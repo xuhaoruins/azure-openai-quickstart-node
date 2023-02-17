@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/2b4fd42b-2c56-4da2-a7b7-7e39c50730e9/AppServices/subscriptions/2b4fd42b-2c56-4da2-a7b7-7e39c50730e9/resourceGroups/webgpt/providers/Microsoft.Web/sites/haxuwebgpt",
+    "appService.deploySubpath": "."
+}

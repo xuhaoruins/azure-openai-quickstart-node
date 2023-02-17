@@ -36,10 +36,16 @@
   color: #202123;
   margin: 16px 0 40px;
 }
+.main h4 {
+  font-size: 8px;
+  line-height: 10px;
+  color: #202123;
+  margin: 4px 0 10px;
+}
 .main form {
   display: flex;
   flex-direction: column;
-  width: 320px;
+  width: 360px;
 }
 .main input[type="text"] {
   padding: 12px 16px;
