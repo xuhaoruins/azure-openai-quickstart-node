@@ -1,6 +1,6 @@
 # Azure OpenAI API Quickstart - Node.js example app
 
-This is an example pet name generator app used in the OpenAI API [quickstart tutorial](https://beta.openai.com/docs/quickstart). It uses the [Next.js](https://nextjs.org/) framework with [React](https://reactjs.org/). Check out the tutorial or follow the instructions below to get set up.
+This is an Azure openAI API example. This app used in the OpenAI API [quickstart tutorial](https://beta.openai.com/docs/quickstart). It uses the [Next.js](https://nextjs.org/) framework with [React](https://reactjs.org/). Check out the tutorial or follow the instructions below to get set up.
 
 ## Setup
 
@@ -8,7 +8,13 @@ This is an example pet name generator app used in the OpenAI API [quickstart tut
 
 2. Clone this repository
 
-3. Navigate into the project directory
+3. Change the basePath URL according to your Azure openAI service
+   
+   ```bash
+   basePath: "https://{YOUR-PROJECT}.openai.azure.com/openai/deployments/{YOUR-DEPLOYMENT}"
+   ```
+
+4. Navigate into the project directory
 
    ```bash
    $ cd openai-quickstart-node
