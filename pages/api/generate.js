@@ -60,17 +60,3 @@ export default async function (req, res) {
     }
   }
 }
-/*
-function generatePrompt(chatMsg) {
-  const capitalizedchatMsg =
-    chatMsg[0].toUpperCase() + chatMsg.slice(1).toLowerCase();
-  return `Suggest three names for an chatMsg that is a superhero.
-
-chatMsg: Cat
-Names: Captain Sharpclaw, Agent Fluffball, The Incredible Feline
-chatMsg: Dog
-Names: Ruff the Protector, Wonder Canine, Sir Barks-a-Lot
-chatMsg: ${capitalizedchatMsg}
-Names:`;
-}
-*/

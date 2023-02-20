@@ -17,7 +17,7 @@ This is an Azure openAI API example. This app used in the OpenAI API [quickstart
 4. Navigate into the project directory
 
    ```bash
-   $ cd openai-quickstart-node
+   $ cd azure-openai-quickstart-node
    ```
 
 4. Install the requirements
@@ -44,4 +44,4 @@ This is an Azure openAI API example. This app used in the OpenAI API [quickstart
    $ npm run dev
    ```
 
-You should now be able to access the app at [http://localhost:3000](http://localhost:3000)! For the full context behind this example app, check out the [tutorial](https://beta.openai.com/docs/quickstart).
+You should now be able to access the app at [http://localhost:3000](http://localhost:3000)! 

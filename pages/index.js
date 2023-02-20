@@ -34,22 +34,22 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Azure OpenAI + 21v</title>
+        <title>Azure OpenAI Quickstart</title>
         <link rel="icon" href="/dog.png" />
       </Head>
 
       <main className={styles.main}>
         <img src="/dog.png" className={styles.icon} />
-        <h3>Azure OpenAI Service App on 21v Azure</h3>
+        <h3>Azure OpenAI Quickstart</h3>
         <form onSubmit={onSubmit}>
           <input
             type="text"
             name="chatMsg"
-            placeholder="请输入..."
+            placeholder="Please input here..."
             value={TextInput}
             onChange={(e) => setTextInput(e.target.value)}
           />
-          <input type="submit" value="生成内容" />
+          <input type="submit" value="Generate Content" />
         </form>
         <div className={styles.result}>{result}</div>
       </main>
